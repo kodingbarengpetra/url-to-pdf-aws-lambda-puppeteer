@@ -1,0 +1,17 @@
+{
+  "name": "url-to-pdf-lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "base-64": "^1.0.0",
+    "chrome-aws-lambda": "^10.1.0",
+    "puppeteer-core": "^13.6.0",
+    "utf8": "^3.0.0"
+  }
+}

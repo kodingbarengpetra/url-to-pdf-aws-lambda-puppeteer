@@ -5,30 +5,39 @@ Generate PDF from URL using AWS Lambda, Function URL, and Puppeteer
 ## Requirements
 
 - CDK >= 2.20.0
+- NPM
 
 ## Deploying
 
 To deploy the infrastructure follow this steps.
 
-1. Go to the CDK directory
+1. From root to the Lambda directory and install node packages
+   
+   ```
+   cd lambda
+   npm i
+   ```
+
+2. From root directory go to the CDK directory and install node packages.
 
    ```
    cd deployments/cdk
+   npm i
    ```
 
-2. Bootstrap the CDK
+3. Bootstrap the CDK
 
    ```
    cdk bootstrap
    ```
 
-3. Deploy the CDK
+4. Deploy the CDK
 
    ```
    cdk deploy
    ```
 
-4. The CDK will output something like
+5. The CDK will output something like
 
    ```
     UrlToPdfLambdaStack.BucketName = urltopdflambdastack-tempbucke1234567
